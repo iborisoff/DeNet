@@ -1,10 +1,10 @@
 <script>
 
-import SortDrpodown from "@/components/SortDropdown.vue";
+import SortDropdown from "@/components/SortDropdown.vue";
 
 export default {
   name: "ControllersElement",
-  components: {SortDrpodown}
+  components: {SortDropdown}
 }
 
 </script>
@@ -14,7 +14,7 @@ export default {
     <button class="all-files base-btn">
       All files
     </button>
-    <SortDrpodown/>
+    <SortDropdown/>
   </div>
 </template>
 
@@ -23,6 +23,7 @@ export default {
 
 .page-controllers {
   padding: 10px 16px;
+  height: 66px;
   display: flex;
   align-content: center;
   justify-content: space-between;

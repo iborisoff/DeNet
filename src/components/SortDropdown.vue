@@ -48,8 +48,6 @@ export default {
   position: relative;
   margin-left: auto;
   width: 175px;
-
-
 }
 
 .dropdown-wrapper {
